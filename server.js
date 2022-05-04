@@ -2,6 +2,7 @@ const express = require('express');
 
 const app = express();
 
+/* Nos ayudan a interpretar y decodificar el JSON */
 app.use( express.json() );
 app.use( express.urlencoded({ extended: true }) );
 
